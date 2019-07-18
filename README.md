@@ -6,3 +6,8 @@ git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/studiofontanelli/fpabil_fpabilfo_springboot.git
 git push -u origin master
+
+
+$ mvn spring-boot:run
+
+$ curl -v localhost:8080/books
